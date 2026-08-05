@@ -21,6 +21,7 @@ function duplicate(num) {
         }
 
         map[current] = true;
+    return current
 
     }
 
@@ -28,4 +29,4 @@ function duplicate(num) {
 
 }
 
-console.log(duplicate([1,2,3,1]));
+console.log(duplicate([10,2,3,10]));
